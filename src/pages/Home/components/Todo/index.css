@@ -1,0 +1,51 @@
+.todo-item {
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    color: rgb(0 0 0 / 31%);
+    padding: 20px;
+    font-weight: 500;
+}
+
+.border-line{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.244);
+}
+
+.todo-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.todo-item input[type="text"] {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.todo-item span {
+    flex: 1;
+}
+
+.todo-item input[type="text"] {
+    border: none;
+    font-size: 18px;
+    outline: none;
+}
+
+.todo-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.todo-item span {
+    font-size: 18px;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.check{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}

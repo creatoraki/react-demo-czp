@@ -1,0 +1,17 @@
+.card {
+  width: 40vh;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 16px;
+  margin: 16px;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none; 
+}
+
+.element-selector::-webkit-scrollbar {
+  display: none;
+}
